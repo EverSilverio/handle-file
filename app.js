@@ -2,6 +2,7 @@ const fs = require('fs');
 const moment = require('moment');
 
 let data = fs.readFileSync(__dirname + '/data.json', 'utf8');
+// writeFileSync, appendFileSync
 
 console.log(data);
 
