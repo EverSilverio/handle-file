@@ -17,8 +17,8 @@ let newJson = [
 ];
 
 let newItem = {
-    sample: "teste 2",
-    number: 20
+    sample: "teste 3",
+    number: 30
 }
 
 createJsonFile(newJson);
